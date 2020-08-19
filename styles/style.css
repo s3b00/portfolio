@@ -1,30 +1,41 @@
-* {
-    box-sizing: content-box;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+body {
+    background-color: #f9f3f2;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+p {
+    font-size: 18px;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-body {
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 20px 20px 20px;
-    display: block;
-    background-color: #edeef0;
+#footer, #footer-elements {
+    background-color: hsla(0, 0%, 15%, 0.829);
 }
 
-.header-tag {
-    text-shadow: 1px 1px 1px black;
+#hooli-tag {
+    color: white;
+    text-align: center;
 }
 
-#gitlogo {
-    height: 50px;
+#footer-elements, #content {
+    margin: 0% 10%;
+    padding: 0.5% 2%;
+}
+
+#content {
+    background-color: snow;
+    height: 100%;
+}
+
+.profilecart {
+    border: 1px solid #f9f3f2;
+    padding: 5%;
+}
+
+.profileimage {
+    object-fit: cover;
+    width: 320px;
+    height: 180px;
 }
