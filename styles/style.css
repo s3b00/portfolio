@@ -1,5 +1,7 @@
 body {
     background-color: #f9f3f2;
+
+    -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -14,8 +16,11 @@ a:hover {
     background-color: hsla(0, 0%, 15%, 0.829);
 }
 
-#hooli-tag {
+#hoolitag {
     color: white;
+}
+
+.higher {
     text-align: center;
 }
 
@@ -26,7 +31,6 @@ a:hover {
 
 #content {
     background-color: snow;
-    height: 100%;
 }
 
 .profilecart {
