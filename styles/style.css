@@ -1,45 +1,74 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;    
+    letter-spacing: 0.07em;
+    line-height: 100%;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.container {
+    background-color:rgba(0, 0, 0, 0.69);
+}
+
+.bg-main {
+    background-color: rgba(76, 77, 61, 0.7);
+}
+
 body {
-    background-color: #f9f3f2;
-
-    -webkit-font-smoothing: antialiased;
+    background: #F8F8F8;
 }
 
-p {
-    font-size: 18px;
+.text-description {
+    color: #FFFFFF;    
+    letter-spacing: 0.07em;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: justify;
 }
 
-a:hover {
-    text-decoration: underline;
+.text-bold {
+    font-weight: bold;
 }
 
-#footer, #footer-elements {
-    background-color: hsla(0, 0%, 15%, 0.829);
+.hidden-text {
+    color: rgb(77 77 77 / 1);
 }
 
-#hoolitag {
+.card-header {
+    background-color: rgba(76, 77, 61, 0.7);
     color: white;
-}
-
-.higher {
     text-align: center;
 }
 
-#footer-elements, #content {
-    margin: 0% 10%;
-    padding: 0.5% 2%;
+.card-body {
+    background-color: #C4C4C4;
 }
 
-#content {
-    background-color: snow;
+.card {
+    background-color: #4d4d4d;
+    background-clip: border-box;
+    border: 0;
+    border-radius: 0;
+    margin-right: 10px;
 }
 
-.profilecart {
-    border: 1px solid #f9f3f2;
-    padding: 5%;
+.carousel-inner img {
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
 }
 
-.profileimage {
-    object-fit: cover;
-    width: 320px;
-    height: 180px;
+.carousel-indicators li {
+    background-color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: #4d4d4d;
 }
